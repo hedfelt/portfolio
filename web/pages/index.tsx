@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
@@ -6,7 +7,7 @@ const Home = () => {
       <Head>
         <title className="">Hanne's portfolio</title>
       </Head>
-      <h1 className="underline text-blue-700">HEI!</h1>
+      <Header />
     </div>
   );
 };
